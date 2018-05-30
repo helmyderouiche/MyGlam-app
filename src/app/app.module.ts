@@ -13,6 +13,8 @@ import { ListComponent } from './list/list.component';
 import { HeaderComponent } from './header/header.component';
 import { HowitworkComponent } from './howitwork/howitwork.component';
 import { MenuComponent } from './menu/menu.component';
+import { FooterbgComponent } from './footerbg/footerbg.component';
+import { FooterComponent } from './footer/footer.component';
 import {
   MatButtonModule,
   MatToolbarModule,
@@ -31,7 +33,9 @@ import {
     HeaderComponent,
     HowitworkComponent,
     MenuComponent,
-    CapitalComponent
+    CapitalComponent,
+    FooterbgComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
